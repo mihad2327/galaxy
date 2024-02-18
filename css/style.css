@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+display: flex;
+justify-content: space-between;
+width: 90%;
+margin-left: 5%;
+margin-top: 30px;
+margin-bottom: 20px;
+
+
+}
+.logo{
+
+}
+nav{
+
+}
+header nav ul a{
+ text-decoration: none;
+ color: #97999b;   
+}
+
+.banner{
+   
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 900px;
+    position: relative;
+}
+
+.banner h1{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 50px;
+    font-family: Roboto, sans-serif;
+}
+.banner h4{
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 15px;
+}
+
+.banner button{
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%,-50%);
+    background-color: #fb6e52;
+    border: none;
+    border: 1px solid #fff;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 50px;
+    text-transform: capitalize;
+    font-family: "Playfair Display", serif
+}
+
+.banner button img{margin-inline: 5px 0;}
+
+    .items {
+        display: flex;
+        width: 80%;
+        margin: auto;
+        margin-top: 50px;
+        justify-content: space-around;
+}
+.web{
+position: relative;
+text-align: center;
+width: 14%;
+}
+.icon {
+    position: absolute;
+    top: 2%;
+    left: 34%;
+    transform: translate(70%, 50%);
+}
+
+.web h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+.web p {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #97999b;
+}
+
+.middle {
+    width: 32%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.middle h1 {
+    color: #fb6e52;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: Roboto, sans-serif;
+    font-style: italic;
+}
+
+.photos_container{
+    margin-top: 70px;
+}
+
+.photos {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.photo{
+    width: 32%;
+}
+
+.photo img{
+    width: 100%;
+    height: 279.06px;
+}
+
+.photo h2{
+
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-family: Roboto, sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+    }
+    .photo h3 {
+        font-family: Roboto, sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+        color: #97999b;
+    }
+
+    .blog{
+       
+            text-align: center;
+            background-color: #f9f9f9;
+            padding: 70px;
+            margin-top: 70px;
+        }
+    .blog h1{
+        font-size: 40px;
+    font-weight: 400;
+    font-family: Roboto, sans-serif;
+
+    }
+
+    .last_item{
+        background-color: #f9f9f9;
+    }
+
+    .content{
+        display: flex;
+    justify-content: space-around;
+    margin: 0px 200px;
+    }
+
+    .last{
+        width: 46%;
+    }
+
+    .last img{
+        width: 100%;
+        height: 500px;
+    }
+    
+    .last h3 {
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-family: Roboto, sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        color: #fb6e52;
+    }
+
+    .last p {
+        font-family: Roboto, sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+        color: #97999b;
+    }
+
+    .footer_part{
+       
+            display: flex;
+            justify-content: space-between;
+            background-color: #292c34;
+            margin-top: 70px;
+            padding: 40px 0px;
+        
+    }
+
+    .logo_part{
+        display: flex;
+        margin-left: 100px;
+    }
+    .flogo{
+
+    }
+
+    .rights{
+
+    }
+
+    .rights h3 {
+        margin-left: 40px;
+        margin-top: 14px;
+        color: #797c82;
+        font-size: 13px;
+        font-family: Roboto, sans-serif;
+        font-weight: 400;
+    }
+
+    .icon_part{
+        margin-right: 162px;
+    }
+
+    .icon_part ul {
+        display: flex;
+        list-style: none;
+        margin-top: 12px;
+    }
+    .icon_part ul li {
+        margin-left: 50px;
+    }
+
+    .icon_part ul li a {
+        color: white;
+        font-weight: 400;
+    }
